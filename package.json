@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d dist -b deploy-pages -r business"
+    "deploy": "npx gh-pages -d dist -b deploy-pages -r https://github.com/argha101125-ui/proyekwebbeautyclinic.git"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
