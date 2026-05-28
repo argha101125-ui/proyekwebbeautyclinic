@@ -1,17 +1,17 @@
 {
   "name": "aldiora-clinic",
-  "homepage": "https://bimoghanis.github.io/proyekwebbeautyclinic/",
+  "homepage": "https://argha101125-ui.github.io/proyekwebbeautyclinic/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "npx gh-pages -d dist -b deploy-pages"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d dist -b deploy-pages"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "gh-pages": "^6.3.0",
