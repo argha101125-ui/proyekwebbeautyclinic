@@ -1,12 +1,13 @@
 import React, { Suspense, lazy } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/layout"; 
+import Layout from "./components/layout";
 
 const Dashboard = lazy(() => import("./pages/dashboard"));
 const Konsultasi = lazy(() => import("./pages/consultation"));
 const ServiceDetail = lazy(() => import("./pages/ServiceDetail"));
 const About = lazy(() => import("./pages/about"));
 const Contact = lazy(() => import("./pages/contact"));
+const PrivacyPolicy = lazy(() => import("./pages/privacy"));
 
 const LoadingScreen = () => (
   <div className="w-full min-h-[80vh] flex flex-col items-center justify-center bg-white">
@@ -22,7 +23,6 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          
           <Route
             index
             element={
@@ -68,6 +68,14 @@ function App() {
             }
           />
 
+          <Route
+            path="/privacy"
+            element={
+              <Suspense fallback={<LoadingScreen />}>
+                <PrivacyPolicy />
+              </Suspense>
+            }
+          />
         </Route>
       </Routes>
     </HashRouter>

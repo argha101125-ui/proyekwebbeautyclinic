@@ -305,7 +305,7 @@ const Dashboard = () => {
           <div className="mt-8 flex justify-center">
             <Link
               to="/konsultasi"
-              className="group relative inline-flex items-center gap-3 bg-transparent border-2 border-[#15503E] text-[#15503E] px-10 py-4 rounded-full text-sm font-bold uppercase tracking-widest overflow-hidden hover:text-[#FAE3C3] transition-colors duration-300"
+              className="group relative inline-flex items-center gap-3 bg-transparent border-2 border-[#15503E] text-[#15503E] px-10 py-4 rounded-full text-sm font-bold uppercase tracking-widest overflow-hidden hover:text-[#88BFA9] transition-colors duration-300"
             >
               <span className="absolute inset-0 bg-[#15503E] translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out -z-10"></span>
               <span>View All Treatments</span>
