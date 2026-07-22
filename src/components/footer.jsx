@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Instagram, ChevronDown } from "lucide-react";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 
 const Footer = () => {
   const [openSection, setOpenSection] = useState(null);
