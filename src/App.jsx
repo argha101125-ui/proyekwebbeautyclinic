@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 
 const Dashboard = lazy(() => import("./pages/dashboard"));
@@ -20,7 +20,7 @@ const LoadingScreen = () => (
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route
@@ -78,7 +78,7 @@ function App() {
           />
         </Route>
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
