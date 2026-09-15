@@ -27,8 +27,8 @@ const Consultation = () => {
       </section>
 
       {/* SECTION 2: SERVICE LIST (Grid Catalog) */}
-      <section className="w-full py-20 px-6">
-        <div className="container mx-auto">
+      <section className="w-full py-20 px-6 md:px-12 lg:px-24">
+        <div className="container mx-auto max-w-7xl">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-[#15503E]/10 pb-6 gap-4">
             <div>
               <h2 className="text-3xl md:text-4xl font-playfair font-bold text-[#15503E]">

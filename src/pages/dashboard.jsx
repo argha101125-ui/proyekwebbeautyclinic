@@ -372,7 +372,7 @@ const Dashboard = () => {
               height="100%"
               style={{
                 border: 0,
-                filter: "grayscale(70%) contrast(1.2) opacity(0.9)",
+                filter: "contrast(1.2) opacity(0.9)",
               }}
               allowFullScreen=""
               loading="lazy"
@@ -382,7 +382,7 @@ const Dashboard = () => {
             <div className="absolute bottom-6 left-6 bg-white/90 text-[#15503E] px-6 py-3 rounded-2xl shadow-lg backdrop-blur-sm pointer-events-none">
               <p className="font-bold text-sm">Aldiora Clinic</p>
               <p className="text-xs">Jakarta Selatan</p>
-              <p className="text-xs">Mon - Sat: 09:00 - 20:00</p>
+              <p className="text-xs">Monday - Sunday: 09:00 - 21:00</p>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import logoImage from "../assets/Logo2.png";
+import logoImage from "../assets/logoPengganti.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
           >
             <div
-              className="bg-[#FAE3C3] h-12 w-12"
+              className="bg-[#FAE3C3] w-36 md:w-44 h-10 md:h-12 transition-all"
               style={{
                 maskImage: `url(${logoImage})`,
                 maskSize: "contain",
@@ -53,14 +53,14 @@ const Navbar = () => {
               }}
             />
             {/* Wrapper Teks Atas-Bawah (Sudah Dikecilkan) */}
-            <div className="flex flex-col justify-center font-playfair font-bold tracking-widest text-[#FAE3C3]">
+            {/* <div className="flex flex-col justify-center font-playfair font-bold tracking-widest text-[#FAE3C3]">
               <span className="text-lg md:text-xs leading-none mb-0.5">
                 Aldiora
               </span>
               <span className="text-[10px] md:text-xs leading-none">
                 Clinic
               </span>
-            </div>
+            </div> */}
           </Link>
 
           {/* 2. MENU DESKTOP */}

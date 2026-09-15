@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Instagram, ChevronDown } from "lucide-react";
-import logo from "../assets/Logo.png";
+import logo from "../assets/logoPengganti.png";
 
 const Footer = () => {
   const [openSection, setOpenSection] = useState(null);
@@ -76,7 +76,7 @@ const Footer = () => {
                   to="/konsultasi"
                   className="hover:text-yellow-200 transition"
                 >
-                  Consul
+                  Consultation
                 </Link>
               </li>
               <li>

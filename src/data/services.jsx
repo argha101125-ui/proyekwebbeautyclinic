@@ -11,6 +11,8 @@ import skinBoost from "../assets/skinBoost.jpg";
 import prpMicro from "../assets/prpMicro.webp";
 import keloidInject from "../assets/keloidInject.webp";
 import lightPulse from "../assets/lightPulse.webp";
+import acneInjection from "../assets/acneInjection.webp";
+
 
 export const SERVICES_DATA = [
   // === 01. DOCTOR CONSULTATION ===
@@ -264,8 +266,7 @@ export const SERVICES_DATA = [
     shortDesc: "Fast solution to reduce inflammation of active acne.",
     fullDesc:
       "A fast-acting anti-inflammatory injection designed to reduce inflamed acne, minimize swelling and redness, and accelerate the healing process within days.",
-    image:
-      "https://images.unsplash.com/photo-1619451334792-150fd785ee74?q=80&w=2070&auto=format&fit=crop",
+    image: acneInjection,
     icon: <Stethoscope size={24} />,
     pricing: [
       {

@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @theme {
   /* Mendaftarkan Font Baru */
   --font-playfair: "Playfair Display", serif;
